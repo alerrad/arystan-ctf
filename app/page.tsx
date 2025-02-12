@@ -20,12 +20,6 @@ export default function Home() {
             приглашает 15 марта на Military CTF: Digital Fortress.
           </p>
           <CountdownTimer />
-          <Link
-            href="#register"
-            className="bg-green-500 text-black px-8 py-3 rounded-md font-bold hover:bg-green-400 transition duration-300"
-          >
-            Регистрация
-          </Link>
         </div>
       </section>
 
