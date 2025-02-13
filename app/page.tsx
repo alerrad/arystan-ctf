@@ -141,7 +141,7 @@ export default function Home() {
           <p className="text-lg mb-5">Спонсоры: Общественный фонд «NNEF» и Благотворительный фонд «Halyk».</p>
           <div className="max-w-xl flex flex-wrap items-center justify-around mx-auto">
             <Image src="./NNEF-logo.png" alt="NNEF logo" width={288} height={100}/>
-            <Image src="./Halyk-logo.png" alt="Halyk logo" width={288} height={100}/>
+            <Image src="./halyk-logo.png" alt="Halyk logo" width={288} height={100}/>
           </div>
         </div>
       </section>
