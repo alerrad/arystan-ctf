@@ -1,6 +1,6 @@
-import Link from "next/link"
 import MatrixBackground from "./components/MatrixBackground"
 import CountdownTimer from "./components/CountdownTimer"
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -138,7 +138,11 @@ export default function Home() {
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-6">Призовой фонд</h2>
           <p className="text-4xl font-bold mb-4">🏆 750 000 тенге</p>
-          <p className="text-lg">Спонсоры: Общественный фонд «NNEF» и Благотворительный фонд «Halyk».</p>
+          <p className="text-lg mb-5">Спонсоры: Общественный фонд «NNEF» и Благотворительный фонд «Halyk».</p>
+          <div className="max-w-xl flex flex-wrap items-center justify-around mx-auto">
+            <Image src="./NNEF-logo.png" alt="NNEF logo" width={288} height={100}/>
+            <Image src="./Halyk-logo.png" alt="Halyk logo" width={288} height={100}/>
+          </div>
         </div>
       </section>
 
