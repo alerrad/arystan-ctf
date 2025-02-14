@@ -42,7 +42,7 @@ export default function Home() {
       <section className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl font-bold mb-6 text-center">Задачи</h2>
-          <p className="text-lg mb-4">📌 Какие будут задачи?</p>
+          <p className="text-lg mb-4 text-center">📌 Категории задач с которыми столкнутся участники</p>
           <div className="flex flex-wrap gap-4 justify-center">
             <div className="flex items-center bg-blue-500 text-white px-4 py-2 rounded-full">
               <svg
