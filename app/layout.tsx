@@ -7,7 +7,8 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Military CTF: Digital Fortress",
-  description: "Join the ultimate cybersecurity challenge",
+  description: "Join the ultimate cybersecurity challenge, Military CTF: Digital Fortress. Almaty, Kazakhstan. March 15, 2025.",
+  icons: ["favicon.png"],
 }
 
 export default function RootLayout({

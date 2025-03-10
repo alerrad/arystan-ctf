@@ -5,7 +5,6 @@ import Image from 'next/image';
 export default function Home() {
   return (
     <main className="min-h-screen bg-black text-green-500 font-mono">
-      {/* Hero Section */}
       <section className="relative py-20 px-4 sm:px-6 lg:px-8 text-center overflow-hidden">
         <div className="absolute inset-0">
           <MatrixBackground />
@@ -15,7 +14,7 @@ export default function Home() {
           <h1 className="text-4xl sm:text-5xl font-bold mb-6 glitch" data-text="Military CTF: Digital Fortress">
             Military CTF: Digital Fortress
           </h1>
-          <p className="text-lg sm:text-xl mb-8">
+          <p className="text-lg sm:text-xl mb-8 text-green-200">
             Филиал Общественного фонда «NNEF» «Специализированный лицей «Арыстан» и Военная кафедра Astana IT University
             приглашает 15 марта на Military CTF: Digital Fortress.
           </p>
@@ -23,11 +22,11 @@ export default function Home() {
         </div>
       </section>
 
-      {/* About Section */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-900">
-        <div className="max-w-3xl mx-auto">
-          <h2 className="text-3xl font-bold mb-6 text-center">О мероприятии</h2>
-          <div className="space-y-4">
+        <h2 className="text-3xl font-bold mb-6 text-center">О мероприятии</h2>
+        <div className="max-w-4xl mx-auto flex items-center flex-wrap justify-around">
+          <Image src="CTF-event.webp" width={400} height={100} alt="about image" className="rounded-xl"/>
+          <div className="space-y-4 max-w-md text-green-200 mt-5 sm:mt-0">
             <p>
               ⚡️ 10 команд, состоящих из студентов и специалистов по информационной безопасности будут взламывать
               военную инфраструктуру на киберполигоне, реализовывать бизнес риски и решать разные задачи по
@@ -38,11 +37,10 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Tasks Section */}
       <section className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl font-bold mb-6 text-center">Задачи</h2>
-          <p className="text-lg mb-4 text-center">📌 Категории задач с которыми столкнутся участники</p>
+          <p className="text-lg mb-4 text-center text-green-200">📌 Категории задач с которыми столкнутся участники</p>
           <div className="flex flex-wrap gap-4 justify-center">
             <div className="flex items-center bg-blue-500 text-white px-4 py-2 rounded-full">
               <svg
@@ -133,12 +131,11 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Prize Pool Section */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-900">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-6">Призовой фонд</h2>
-          <p className="text-4xl font-bold mb-4">🏆 750 000 тенге</p>
-          <p className="text-lg mb-5">Спонсоры: Общественный фонд «NNEF» и Благотворительный фонд «Halyk».</p>
+          <p className="text-4xl font-bold mb-4 ">🏆 750 000 тенге</p>
+          <p className="text-lg mb-5 text-green-200">Спонсоры: Общественный фонд «NNEF» и Благотворительный фонд «Halyk».</p>
           <div className="max-w-xl flex flex-wrap items-center justify-around mx-auto">
             <Image src="./NNEF-logo.png" alt="NNEF logo" width={288} height={100}/>
             <Image src="./halyk-logo.png" alt="Halyk logo" width={288} height={100}/>
@@ -146,23 +143,20 @@ export default function Home() {
         </div>
       </section>
 
-      {/* When and Where Section */}
       <section className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-6">Когда и где</h2>
-          <p className="text-lg">🗓 15 марта 10:00 часов</p>
-          <p className="mt-2">
-            по адресу: Алматинская область, Талгарский район, с. Бескайнар, филиал Общественного фонда «NNEF»
+          <p className="text-lg text-green-200">🗓 15 марта 10:00 часов</p>
+          <p className="mt-2 text-green-200">
+            Алматинская область, Талгарский район, с. Бескайнар, филиал Общественного фонда «NNEF»
             «Специализированный лицей «Арыстан»
           </p>
         </div>
       </section>
 
-      {/* Footer */}
       <footer className="py-8 px-4 sm:px-6 lg:px-8 text-center">
         <p>&copy; 2025 Military CTF: Digital Fortress. All rights reserved.</p>
       </footer>
     </main>
   )
 }
-
