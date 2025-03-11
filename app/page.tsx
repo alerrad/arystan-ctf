@@ -213,6 +213,7 @@ export default function Home() {
 
       <footer className="py-8 px-4 sm:px-6 lg:px-8 text-center">
         <p>&copy; 2025 Military CTF: Digital Fortress. All rights reserved.</p>
+        <p>Designed & built by <a href="https://github.com/alerrad" className="text-green-100" target="_blank">Alerrad↗️</a></p>
       </footer>
     </main>
   );
